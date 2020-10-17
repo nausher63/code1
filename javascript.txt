@@ -1,0 +1,21 @@
+
+var inputArray = [];
+let pairs=0;
+var size = 5; 
+
+for(var i=0; i<size; i++) {
+	inputArray[i] = prompt('Enter shock element ' + (i+1));
+}
+console.log(inputArray);
+let sorted = inputArray.sort((a,b) => a-b);
+for(let i=0; i<size-1; i++)
+{
+     if(sorted[i]===sorted[i+1]
+	    {
+		    pairs++;
+			i+=1
+
+        }
+		
+}
+console.log(pairs);		
